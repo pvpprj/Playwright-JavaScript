@@ -1,16 +1,20 @@
 const {test,expect}= require('@playwright/test');
+const {customtest} = require('../utils/test-base');
 // const {LoginPage} = require('../pageobjects/LoginPage');
 // const {Dashboardpage} = require('../pageobjects/Dashboardpage');
 
 const {PoManager} = require('../pageobjects/PoManager');
-const dataSet = JSON.parse(require('../utils/placeorderTestData.json')) ;
+// json -> String -> JS Object
+const dataset = JSON.parse(JSON.stringify(require('../utils/placeorderTestData.json')));
 
-test('Page context Playwright Test',async ({page})=>
+for(const data of dataset)
+{
+test(`Client App login for ${data.productsName} `,async ({page})=>
 {
   const poManager = new PoManager(page);
-    const username ="pvpprjc@gmail.com";
-    const password ="Qwer@12345";
-    const productsName = 'ADIDAS ORIGINAL';
+    // const username ="pvpprjc@gmail.com";
+    // const password ="Qwer@12345";
+    // const productsName = 'ADIDAS ORIGINAL';
     const products = page.locator(".card-body");
     console.log("Start test,,,,,,,,,,,,,,");
     
@@ -18,7 +22,7 @@ test('Page context Playwright Test',async ({page})=>
     const loginpage = poManager.getLoginPage();
 
     await loginpage.goTo();
-    await loginpage.validLogin(username, password);
+    await loginpage.validLogin(data.username, data.password);
 
 //     await page.waitForLoadState('networkidle');
 //     // await page.locator(".card-body b").first().textContent();
@@ -39,15 +43,10 @@ test('Page context Playwright Test',async ({page})=>
     const dashboardPage = poManager.getDashboardPage();
     // const dashboardPage = new Dashboardpage(page,productsName);
 
-       await dashboardPage.searchProductAddCart(productsName);  // await page.pause()
-    await dashboardPage.navigateToCart(productsName);
-    await dashboardPage.checkoutproduct(username);
+       await dashboardPage.searchProductAddCart(data.productsName);  // await page.pause()
+    await dashboardPage.navigateToCart(data.productsName);
+    await dashboardPage.checkoutproduct(data.username);
     await dashboardPage.placeOrderProduct();
-
-
-
-
-
 
     // await page.locator("div li").first().waitFor();
   //  const bool =await page.locator("h3:has-text('ADIDAS ORIGINAL')").isVisible();
@@ -105,4 +104,28 @@ test('Page context Playwright Test',async ({page})=>
   //  await page.pause();
     
 
-});
+}); 
+}
+
+
+
+customtest.only(`Client App login`,async ({page,testDataForOrder})=>
+  {
+    const poManager = new PoManager(page);
+    
+      const products = page.locator(".card-body");
+      console.log("Start test,,,,,,,,,,,,,,");
+      const loginpage = poManager.getLoginPage();
+  
+      await loginpage.goTo();
+      await loginpage.validLogin(testDataForOrder.username, testDataForOrder.password);
+  
+      const dashboardPage = poManager.getDashboardPage();
+  
+      await dashboardPage.searchProductAddCart(testDataForOrder.productsName);  // await page.pause()
+      await dashboardPage.navigateToCart(testDataForOrder.productsName);
+      await dashboardPage.checkoutproduct(testDataForOrder.username);
+      await dashboardPage.placeOrderProduct();
+    });
+  
+  
