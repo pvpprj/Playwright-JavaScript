@@ -109,7 +109,7 @@ test(`Client App login for ${data.productsName} `,async ({page})=>
 
 
 
-customtest.only(`Client App login`,async ({page,testDataForOrder})=>
+customtest(`Client App login`,async ({page,testDataForOrder})=>
   {
     const poManager = new PoManager(page);
     

@@ -1,11 +1,14 @@
+//  npx playwright test tests/AppClientPO.spec.js --config playwright.config1.js --project=chrome
 // @ts-check
 const { devices } = require('@playwright/test');
 const { trace } = require('console');
+const { permission } = require('process');
 
 const config ={
   testDir: './tests',
+  retries:1,
 
-  timeout: 30 * 1000,
+  timeout: 20 * 1000,
   expect:{
     timeout: 5000
   },
@@ -16,10 +19,11 @@ const config ={
       name :'safari',
       use:{
         browserName : 'webkit',
-        headless : true ,
+        headless : false ,
         screenshot : 'off',
         // trace : 'retain-on-failure' ,           
          trace : 'on' ,
+         ...devices['iPhone 11']
       }
     } ,
     {
@@ -29,17 +33,11 @@ const config ={
         headless : false ,
        screenshot : 'on',
         // trace : 'retain-on-failure' ,           
+        // viewport :{width:720 , height:720},
         trace : 'on' ,
-      }
-    },
-    {
-      name :'Firefox',
-      use:{
-        browserName : 'firefox',
-        headless : false ,
-       screenshot : 'on',
-        // trace : 'retain-on-failure' ,           
-        trace : 'on' ,
+        ignoreHttpsErrors :true,
+        permission : ['geolocation'],
+        video : 'retain-on-failure'
       }
     }
   ]
