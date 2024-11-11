@@ -1,0 +1,7 @@
+Start test,,,,,,,,,,,,,,
+Navigating to the client page...
+Performing valid login...
+[ 'ZARA COAT 3', 'ADIDAS ORIGINAL', 'IPHONE 13 PRO', 'qwerty' ]
+Count = 4
+orderId =  | 6731f97cae2afd4c0bbb456f | 
+FinalorderId = 6731f97cae2afd4c0bbb456f 

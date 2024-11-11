@@ -1,7 +1,7 @@
 const {test,expect}= require('@playwright/test');
 
 
-test('Browser context Playwright Test',async ({browser})=>
+test('@Web Browser context Playwright Test',async ({browser})=>
 {
     const context = await browser.newContext();
     const page = await context.newPage();
@@ -32,7 +32,7 @@ test('Browser context Playwright Test',async ({browser})=>
     
 });
 
-test('UI Control',async ({page})=>
+test('@Web UI Control',async ({page})=>
     {
         await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
            

@@ -7,6 +7,7 @@ const { permission } = require('process');
 const config ={
   testDir: './tests',
   retries:1,
+  workers : 3,
 
   timeout: 20 * 1000,
   expect:{

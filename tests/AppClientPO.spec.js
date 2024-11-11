@@ -9,7 +9,7 @@ const dataset = JSON.parse(JSON.stringify(require('../utils/placeorderTestData.j
 
 for(const data of dataset)
 {
-test(`Client App login for ${data.productsName} `,async ({page})=>
+test(`@Web Client App login for ${data.productsName} `,async ({page})=>
 {
   const poManager = new PoManager(page);
     // const username ="pvpprjc@gmail.com";

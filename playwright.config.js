@@ -4,6 +4,7 @@ const { trace } = require('console');
 
 const config ={
   testDir: './tests',
+   retries:1,
 
   timeout: 30 * 1000,
   expect:{

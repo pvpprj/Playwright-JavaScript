@@ -79,7 +79,7 @@ test('Page context Playwright Test',async ({page})=>
 
 
 
-    await page.pause();
+  //  await page.pause();
     
 
 });

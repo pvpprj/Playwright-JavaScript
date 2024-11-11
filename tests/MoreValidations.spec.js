@@ -1,7 +1,8 @@
 const{test,expect} = require("@playwright/test");
 
+test.describe.configure({mode:'parallel'});
 
-test("Popup validations" ,async({page}) =>
+test("@Web Popup validations" ,async({page}) =>
 {
     await page.goto("https://rahulshettyacademy.com/AutomationPractice/");
   
@@ -40,7 +41,7 @@ test("Screenshot validations" ,async({page}) =>
 })
 
 
-test.only("visual validations" ,async({page}) =>
+test("visual validations" ,async({page}) =>
     {
         await page.goto("https://www.google.com/"); 
         expect(await page.screenshot()).toMatchSnapshot('landing.png');
