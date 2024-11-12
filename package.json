@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "regression":"npx playwright test",
+    "regression":"npx playwright test",   
+    
     "webTests": "npx playwright test --grep @Web",
     "SafariNewConfig": "npx playwright test --config playwright.config1.js --project=safari"
 
