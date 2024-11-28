@@ -1,13 +1,8 @@
-Feature : Ecommerce validations
-
-Scenarious: Placing the Order
-
-Given a login to Ecommerce application with "pvpprjc@gmail.com" and "Qwer@12345"
-When Add "ADIDAS ORIGINAL" to cart
-Then Verify "ADIDAS ORIGINAL" is displayed in the cart
-When Enter valid details and Place the Order
-Then Verify order in present in the OrderHistory
-
-
-
-
+Feature: Ecommerce validations
+ 
+  Scenario: Placing the Order
+    Given I log in to the Ecommerce application with "pvpprjc@gmail.com" and "Qwer@12345"
+    When I add "ADIDAS ORIGINAL" to the cart and verify product is displayed in the cart with "pvpprjc@gmail.com"
+    # Then I verify "ADIDAS ORIGINAL" is displayed in the cart
+    When I enter valid details and place the order
+    Then I verify the order is present in the Order History
