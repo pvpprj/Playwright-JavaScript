@@ -2,6 +2,10 @@
 
 HR policy -> https://hr.techmahindra.com/WFOPolicy.aspx
 
+Login -> https://www.automationexercise.com/login
+test9029367@gmail.com
+test@902
+
 Binary file locations -> C:\Users\SBI.INMUCHLP05537\AppData\Local\ms-playwright\chromium-1084
 
 C:\Users\SBI.INMUCHLP05537\AppData\Local\ms-playwright
