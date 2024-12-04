@@ -1,0 +1,92 @@
+2410001878
+
+HR policy -> https://hr.techmahindra.com/WFOPolicy.aspx
+
+Binary file locations -> C:\Users\SBI.INMUCHLP05537\AppData\Local\ms-playwright\chromium-1084
+
+C:\Users\SBI.INMUCHLP05537\AppData\Local\ms-playwright
+
+https://github.com/pv?tab=repositories
+git clone -b master https://github.com/pv/PlayWright.git
+
+https://github.com/naveenanimation20/playwright-java
+
+All project file -> C:\Intel
+
+
+mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="codegen https://academy.naveenautomationlabs.com/"
+
+mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="codegen https://www.makemytrip.com/"
+
+https://datatables.net/extensions/select/examples/checkbox/checkbox.html
+
+https://primeng.org/
+
+https://selectorshub.com/xpath-practice-page/
+
+the-internet.herokuapp.com/javascript_alerts
+
+https://naveenautomationlabs.com/opencart/
+
+//table[@id='resultTable']//a[text()='Joe.Root']
+
+
+
+//svg[@class='oxd-icon orangehrm-sm-icon']
+------------------------------------------------------
+
+
+Amit Shaw -> USHA interview -> 
+1. Array no -> 12345  -> 1
+2. Unique -> substring -> ABCC
+------------------------------------------------------
+Ankit -> 
+1. String 
+2. 
+
+Amit Shaw -> 
+cODING
+->
+1. String reverse 
+	rahul. -> luhar.
+	
+---------------------------------------------------------------
+	JAVASCRIPT
+	
+npx playwright test tests/UIBasicsTest.spec.js
+Debuging -> npx playwright test --ui
+
+to execte all test cases in Test Folder -> npx playwright test tests
+to execte all test cases in Test Folder with respect to "config1" file -> npx playwright test --config playwright.config1.js --project=chrome
+npx playwright test tests/MoreValidations.spec.js --config playwright.config1.js --project=chrome
+
+npx playwright test tests/AppClientPO.spec.js --config playwright.config1.js --project=chrome
+
+npm run webTests 
+
+
+Group -> npx playwright test --grep=@Web
+
+Jenkins URL: http://localhost:8080/
+
+username : rg4030
+
+
+
+1. AppClientOtherWay.spec.js  -> Done
+2. llc -> Done
+3. MoreValidations.spec.js -> Done
+4. Calander.spec -> Done
+
+
+git :
+git status
+git commit -am "changes"
+git push -u origin main
+
+
+
+
+
+
+
