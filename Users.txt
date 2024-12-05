@@ -1,0 +1,458 @@
+
+HR policy -> https://hr.techmahindra.com/WFOPolicy.aspx
+
+Login -> https://www.automationexercise.com/login
+test9029367@gmail.com
+test@902
+
+url =https://classic.freecrm.com/
+username = groupautomation
+password =Test@12345
+
+https://classic.crmpro.com
+
+RG001056446@techmahindra.com
+
+https://pcs.mahaonline.gov.in/Forms/Home.aspx
+https://datadesigndecide.com/exams/dev/dev_v1/index.html   admin@shss.com   shss   
+Andrew wifi = 0b0be6b8
+https://ibpsonline.ibps.in/sbisco2aug24/uploaddocs.php?q=YmIzZmQyNjg4NmViZWFjZjEzMjlhN2FiZGRiMTViNzR8MjQxMDAwMTg3OA==
+
+MBSCFUCINB
+h1234567.
+
+
+chrome Driver  -> :https://googlechromelabs.github.io/chrome-for-testing/
+
+
+
+SBI_GITC_WIFI
+
+Maker -> mobvymaker1 -> a.
+Checker -> mobvyauth1 -> a
+
+
+
+
+
+
+
+Corporate -
+
+vistar
+ -----------------------------
+IMPS -> 
+
+IFSC Based : Acco -> 123456041 , IFSC -> HDFC0001277
+
+MMID -> 9121 
+
+
+p2A - p2p
+
+Mobvymaker1    
+With is SBI -> CT0000BRPO   -> Done Auth
+NEFT -> CN00jiRth3            
+
+
+With is SBI -> CT0000BRP3   -> Done Auth
+NEFT -> CN00jiRth5        
+
+
+With is SBI -> CT0000BRP4   -> Auth Fail
+NEFT -> CN00jiRth6
+IMPS -> CJ00124629
+
+        
+ANCINBMaker5->Normal IMPS => 
+IFSC -> CJ00124631
+MMID -> CJ00124632
+
+IFSC Based : Acco -> 123456041 , IFSC -> HDFC0001277 -> CJ00124633
+
+MMID -> 9121  -> CJ00124634
+
+
+ANCINBAutha5a3
+QUICK transer -> IPS -> IFC-> cP2A
+IFSC -> 
+MMID -> 
+
+3 Auth -> 
+Mobvymaker1 -> 
+with sbi = CT0000BRQ6   
+NEFT = CN00jiRT12
+neft = CN00jiRT13
+
+mobvyauth1 -> Done refrence no = CT0000BRQ6
+Including IMPS -> CT0000BRQ6
+
+--------------------------------------------------------
+29 Aug ->
+
+with sbi 
+NEFT
+neft 
+RTGS
+
+
+
+---------------------------------------------------------------------------------
+Pre Login : 
+
+1. After entering user name or password .
+2. In account and Account summary.
+3. In account and Statement Download.
+
+Post Login : 
+
+
+
+------------------------------
+**  Funds Transfer:  <Maintenance>
+
+1. Own SBI account -> <Maintenance>:  From A/c , To A/c , Amount , Remarks , -> click on submit buttom -> <Maintenance>
+
+2. Within SBI account -> <Maintenance>:  From A/c , To A/c , Amount , Purpose  , -> click on submit buttom -> <Maintenance>
+
+3. Outside Sbi -> 	<Maintenance>
+   i)   NEFT ->  From A/c , To A/c , Amount , Purpose  , -> click on submit buttom -> <Maintenance>
+   ii)  RTGS ->  From A/c , To A/c , Amount , Purpose  , Priority ,  -> click on submit buttom -> <Maintenance>
+   iii) IMPS -> 
+		  a). person To person -> <Maintenance>: From A/c , To A/c , Amount , Purpose  , -> click on submit buttom -> <Maintenance>
+		  b). person To Account-> <Maintenance>: From A/c , To A/c , Amount , Purpose  , -> click on submit buttom -> <Maintenance>
+		
+
+**  Yono Pay :  
+
+1. Own SBI account (Fund Transfer-Own SBI) -> <Maintenance>:  From A/c , To A/c , Amount , Remarks , -> click on proceed buttom -> <Maintenance>
+
+2. Within SBI account (Fund Transfer-Within SBI)-> <Maintenance>:  From A/c , To A/c , Amount , Remarks,-> click on proceed buttom -> <Maintenance>
+  
+3. Other Bank (Fund Transfer-Others) -> <Maintenance>
+   i)   NEFT ->  From A/c , To A/c , Amount , Purpose  , -> click on proceed buttom -> <Maintenance>
+   ii)  RTGS ->  From A/c , To A/c , Amount , Purpose  , Priority ,  -> click on proceed button -> <Maintenance>
+   iii) IMPS ->  From A/c , To A/c ,Benificiary type, Amount , Purpose  , -> click on proceed buttom -> <Maintenance>
+   
+4. Quick Transfer (Fund Transfer - Quick Transfer) -> <Maintenance> : 
+   	i) Within SBI (Fund Transfer - Quick Transfer) -> From A/c , To A/c , Re-enter To A/C , Beneficiary Name , Amount , Remarks,-> click on proceed buttom -> <Maintenance>
+   ii) Others Bank (Fund Transfer - Quick Transfer) -> From A/c , To A/c , Re-enter To A/C , Beneficiary Name , Amount , Remarks,-> click on proceed buttom -> <Maintenance>
+	    i)  NEFT ->  From A/c , To A/c , Re-enter To A/C , Beneficiary Name ,IFS Code , Amount , Purpose ,Remarks -> click on proceed buttom -> <Maintenance>
+       ii)  IMPS ->  From A/c , To A/c , Re-enter To A/C , Benificiary type,IFS Code , Amount , Purpose ,Remarks -> click on proceed buttom -> <Maintenance>
+   
+ 
+---------------------------------------------------------------------------------------------------------------
+
+saral -
+		1. Direct login -> Ip addrss mapped to DB
+		2. Mpin login   -> Ip addrss mapped to DB
+
+Corporate -
+Direct login -> Ip addrss mapped to DB
+Mpin login -> Ip addrss mapped to DB
+
+3. CMP -> corporate payment ->   
+		1. Direct login -> Ip addrss mapped to DB
+		2. Mpin login -> Ip addrss mapped to DB
+
+4. CMP collection->
+
+5. E-forex ->
+		1. Direct login -> Ip addrss mapped to DB
+        2. Mpin login -> Ip addrss mapped to DB
+
+6. E-Trade ->
+		1. Direct login -> Ip addrss mapped to DB
+        2. Mpin login -> Ip addrss mapped to DB
+
+7. Khata -> 
+		1. Direct login -> Ip addrss mapped to DB
+		2. Mpin login -> Ip addrss mapped to DB
+
+
+To check whether if user login in mobile app the IP address should be dispalying in DB.
+
+
+13 September ->
+  
+1. OWN 
+	(Pay now) ->   CI00AMHHG1
+    (Schedule)->   CI00AMHHG4
+
+2. Within SBI
+	(Pay now) ->    
+    (Schedule)->   
+
+
+16 Sep ->
+
+1. saral -> 
+
+  Fund transfer -> own -> pay now , Schedule.
+  Quick transfer-> 
+
+Pay Supplier
+
+Quick Transfer (Yono pay)
+Within SBI
+Outside SBI
+
+Add beneficiary
+Manage beneificiary
+
+Positive Pay
+Scan Pay -> Payments
+
+---------------------------------------------------------------------------------------------------------
+Fund transfer -> 
+1. own -> 
+	pay now = CI00AMHIA3
+	Schedule= CI00AMHIA2
+	
+	147258
+
+----------------------------------------------------
+25/09/24- IOS Production build.
+
+Banking - Legacy -> 
+	
+Yono pay ->
+
+With in sbi -> CT00IMIKO2
+
+Other bank :
+1. NEFT -> CNADFHSSC6
+2. RTGS -> nO AUTHORIZATION
+3. IMPS ->P-P  = CJ12486653
+		  P-AC = CJ12486722
+		  
+  11155479787
+  
+----------------------------------------------------
+26/09/24- Android build share by prabhu.
+
+
+Banking - Legacy Tranfer ->  
+FundsTransfer ->
+
+ 
+ Own A/c -> Not perform
+ with in SBI A/c -> CT00IMUKF3
+Inter Bank  - NEFT
+Inter Bank  - NEFT
+Inter Bank  -  RTGS
+Inter Bank  -  RTGS
+Inter Bank  - IMPS - P2P
+Inter Bank  - IMPS - P2A
+  
+  
+-------------------------------------------------------------------------
+  1st october ->
+  
+Banking - Legacy - Fund Tranfer	
+		
+FundsTransfer Own A/c	 Not perform
+FundsTransfer Own A/c	 Not perform
+FundsTransfer with in SBI A/c	Pay Now	PASS	
+FundsTransfer with in SBI A/c	Schedule	PASS	
+Inter Bank  - NEFT	Pay Now	PASS	
+Inter Bank  - NEFT	Schedule	PASS	
+Inter Bank  -  RTGS	Pay Now	PASS	No sufficient Balance. Cannot be tested
+Inter Bank  -  RTGS	Schedule	PASS	No sufficient Balance. Cannot be tested
+Inter Bank  - IMPS - P2P	P2P	PASS	
+Inter Bank  - IMPS - P2A	P2A	PASS	  
+
+
+
+----------
+Etrade -> crstal34 
+Tforex -> userUat4 
+CMP -> 
+Cmp Collection 
+
+
+-------------------------------------------------------------------------
+ 11st october ->
+
+Banking - Saral (Yono Pay) -> 
+	
+Own A/c	Pay Now -> CI00AMHOD7
+with in SBI A/c	Pay Now -> CT0000CCH0
+Own A/c	Schedule -> CI00AMHOD8
+with in SBI A/c	Schedule ->CT0000CCH1 	
+Inter Bank  - NEFT	Pay Now -> CN00JISHD7
+Inter Bank  - NEFT	Schedule ->CN00JISHD8
+Inter Bank  -  RTGS	Pay Now  ->CRA0146098
+Inter Bank  -  RTGS	Schedule ->
+Inter Bank  - IMPS	MMID Based -> IMPS00000009843
+Inter Bank  - IMPS	IFSC Based -> IMPS00000009842
+
+-------------------------------------------------------------------------
+ 15st october ->
+
+Banking - Legacy - Fund Tranfer	
+
+FundsTransfer Own A/c Pay Now -> NA
+FundsTransfer Own A/c Schedule -> NA
+FundsTransfer with in SBI A/c Pay Now  -> CT00JDXWU9
+FundsTransfer with in SBI A/c Schedule -> CT00JDXYM6
+NEFT Pay Now -> CNADGENAL2
+NEFT Schedule ->CNADGENIM5
+RTGS Pay Now -> No sufficient Balance. Cannot be tested
+RTGS Schedule -> No sufficient Balance. Cannot be tested
+IMPS P2P -> IMPS00065437143
+IMPS P2A -> IMPS00065443879
+
+-------------------------------------------------------------------------
+ 16th october ->
+
+corporate user (MBVYAP1) Banking - Yono Pay -> 
+
+FundsTransfer Own A/c (Now) -> 
+FundsTransfer Own A/c (Schedule) -> 
+FundsTransfer within SBI A/c -> CT00JEOFU5
+FundsTransfer within SBI A/c (schedule) -> CT00JEOKA 
+Inter Bank  - NEFT (Now)-> CNADGFOEU1
+Inter Bank  - NEFT (schedule) -> CNADGFOFPO
+Inter Bank  - RTGS -> 
+Inter Bank  - IMPS - IFSC (Now) -> CJ12600177
+Inter Bank  - IMPS - IFSC (Scheduled) -> CJ12600181
+Inter Bank  - IMPS - MMID (Now) -> CJ12600189
+Inter Bank  - IMPS - MMID (Scheduled) -> CJ12600198
+
+CDK in legecy
+ 
+ 1. 16102466550103
+ 2. 16102466550109
+ 3. 16102466550111
+ 
+ -----------------------------------
+ 
+MBSCFUCINB  done
+a1234567.
+Corporate:
+MBVYAP1  done
+a1234567.
+MBVYAP2  done
+a1234567.
+
+BpAuth  OTP pending 
+a1234567.
+BpRel OTP pending 
+BpUpl OTP pending 
+BpApp OTP pending 
+CD06MOBILE  Already Login
+qtpauth01 OTP pending 
+
+
+
+-----------------------------------
+21 Oct
+
+within SBI A/c (Now)-> CT00JIGJG7
+within SBI A/c (Sch)-> CT00JIGJG8
+
+Banking - Saral (Yono Pay) -> 
+	
+Own A/c	Pay Now -> 
+Own A/c	Schedule ->
+with in SBI A/c	Pay Now ->  CT00JIGJG7
+with in SBI A/c	Schedule -> CT00JIJNM6
+Inter Bank  - NEFT	Pay Now -> 
+Inter Bank  - NEFT	Schedule ->
+Inter Bank  -  RTGS	Pay Now  ->
+Inter Bank  -  RTGS	Schedule ->
+Inter Bank  - IMPS	MMID Based -> 
+Inter Bank  - IMPS	IFSC Based -> 
+
+UPI -> 
+saralvijay ->
+1. Create UPI -> 917200083675@sbi -> acc no =77717
+2. Create customize UPI id -> rahul9876@sbi -> acc no =77321 
+
+
+-----------------------------------
+22 Oct
+navigate to one tab to another tab -> 
+
+saralvijay ->
+1. Create customize UPI id -> rahul98765@sbi -> acc no =54199 
+
+oct -> 9
+Nov -> 30 
+Dec -> 31
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8 oct -> Working on CRM build and cordinating with Harish
+9 Oct ->  Tc on Corporate user , Mpin , Search By Account , Favourite Account , Check Deposit.
+10 oct -> no sim (Sim issue -> not able to test Pay now flow and flex and box )
+11 oct -> Working on yono pay transaction on "UAT Reschedule_20_8_2024.apk" after 3.45 Wifi not working and Writing TC on maintaince -> (CMP Paym,CMP Coll). 
+14 oct -> Leave
+15 oct -> Working in Box to Flex build ->
+16 oct -> Working on pre prod build & share on mail  ->
+17 oct -> Working on Last login in pre prod build
+18 oct ->  Working on Last login (MPIN) in pre prod build
+21 oct ->  Working on MPIN and Scan & Pay , UPI module uat build  -> Build not working proper (Vivo device)
+22 oct ->  UPI module uat build  -> Build not working proper (Vivo device)
+23 oct -> Write Test cases on Biomatric finger and face id.
+24 oct -> Write Test cases on Biomatric finger and face id.
+25 oct -> Write Test cases on Biomatric finger and face id.
+
+
+
