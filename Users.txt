@@ -9,6 +9,10 @@ url =https://classic.freecrm.com/
 username = groupautomation
 password =Test@12345
 
+url =https://classic.freecrm.com/
+username = groupautomation
+password =Test@12345
+
 https://classic.crmpro.com
 
 RG001056446@techmahindra.com
